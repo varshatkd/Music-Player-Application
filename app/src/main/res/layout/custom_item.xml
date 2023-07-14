@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/container"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/imgRec"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_recordings" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="245dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/renameButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#00FFFF"
+        android:drawableRight="@drawable/baseline_drive_file_rename"
+        android:textColorHighlight="#F1E7E7"
+        android:textColorLink="#EADCDC" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#00FFFF"
+        android:drawableRight="@drawable/baseline_share"
+        android:textColorHighlight="#F1E7E7"
+        android:textColorLink="#EADCDC" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#0C0C0C"
+        android:drawableRight="@drawable/baseline_delete"
+        android:textColorHighlight="#FBF6F6"
+        android:textColorLink="#F1EEEE" />
+
+</LinearLayout>

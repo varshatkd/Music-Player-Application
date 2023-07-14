@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="Song_Name">Song Name</string>
+    <string name="recorder_name">Voice Recorder</string>
+    <string name="new_account_sign_up_here">New account?Sign Up Here</string>
+
+</resources>
